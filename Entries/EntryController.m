@@ -30,7 +30,6 @@ static NSString * const entriesKey = @"entries";
 }
 
 - (void)addEntry:(Entry *)entry {
-
     if (!entry) {
         return;
     }
